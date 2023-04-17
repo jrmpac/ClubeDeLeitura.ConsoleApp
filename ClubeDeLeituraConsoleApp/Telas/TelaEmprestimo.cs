@@ -12,15 +12,15 @@ namespace ClubeDeLeituraConsoleApp.Telas
             bool menuemprestimo = true;
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" ====================");
+            Console.WriteLine("--------------------");
             Console.WriteLine(" Clube da Leitura");
-            Console.WriteLine(" ====================");
+            Console.WriteLine("--------------------");
             Console.ResetColor();
             Console.WriteLine();
  
             while (menuemprestimo)
             {
-                Console.WriteLine(" === EMPRESTIMO ===");
+                Console.WriteLine(" --- EMPRESTIMO ---");
                 Console.WriteLine();
                 Console.WriteLine(" 1 - Cadastrar Emprestimo");
                 Console.WriteLine(" 2 - Editar Emprestimo");

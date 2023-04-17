@@ -13,15 +13,15 @@ namespace ClubeDeLeituraConsoleApp.Telas
             bool menuamigos = true;
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" ====================");
-            Console.WriteLine(" Clube da Leitura");
-            Console.WriteLine(" ====================");
+            Console.WriteLine("--------------------");
+            Console.WriteLine(" ----- Clube da Leitura -----");
+            Console.WriteLine("--------------------");
             Console.ResetColor();
             Console.WriteLine();
 
             while (menuamigos)
             {
-                Console.WriteLine(" === AMIGOS ===");
+                Console.WriteLine(" --- AMIGOS ---");
                 Console.WriteLine();
                 Console.WriteLine(" 1 - Cadastro Amigo");
                 Console.WriteLine(" 2 - Editar Amigo");
