@@ -18,9 +18,8 @@ namespace ClubeDeLeituraConsoleApp
             while (menuservico == true)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine(" ====================");
-                Console.WriteLine(" Clube da Leitura");
-                Console.WriteLine(" ====================");
+                Console.WriteLine();
+                Console.WriteLine(" ----- Clube da Leitura ----- ");                
                 Console.ResetColor();
                 Console.WriteLine();
                 
@@ -29,7 +28,7 @@ namespace ClubeDeLeituraConsoleApp
                 Console.WriteLine(" (3) Revistas");
                 Console.WriteLine(" (4) Caixas");
                 Console.WriteLine(" (S) Fechar Programa");
-                Console.WriteLine(" --------------------");
+                Console.WriteLine();
 
                 string escolha = Console.ReadLine().ToUpper();
 

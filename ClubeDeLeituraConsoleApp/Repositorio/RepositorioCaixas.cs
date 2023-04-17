@@ -18,7 +18,7 @@ namespace ClubeDeLeituraConsoleApp.Repositorio
 
             ListaCaixas.Add(caixa);
 
-            Console.WriteLine("Cadastro feito com sucesso.");
+            Console.WriteLine("Cadastro realizado.");
         }
 
         public void EditarCaixas(List<Caixas> ListaCaixas)
@@ -43,7 +43,7 @@ namespace ClubeDeLeituraConsoleApp.Repositorio
 
             ListaCaixas.Add(caixa);
 
-            Console.WriteLine("Edição feita com sucesso.");
+            Console.WriteLine("Editado com sucesso.");
         }
 
         public void ExcluirCaixas(List<Caixas> ListaCaixas)
@@ -56,7 +56,7 @@ namespace ClubeDeLeituraConsoleApp.Repositorio
             int index = caixa.teste.FindIndex(item => caixa.remove == item.ID);
             caixa.teste.RemoveAt(index);
 
-            Console.WriteLine("Exclusão feita com sucesso.");
+            Console.WriteLine("Exclusão bem sucedida.");
         }
 
         public void VerificarCaixas(List<Caixas> ListaCaixas)

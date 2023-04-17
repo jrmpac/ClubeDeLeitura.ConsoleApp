@@ -13,16 +13,16 @@ namespace ClubeDeLeituraConsoleApp.Telas
             bool menurevistas = true;
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" ====================");
+            Console.WriteLine("--------------------");
             Console.WriteLine(" Clube da Leitura");
-            Console.WriteLine(" ====================");
+            Console.WriteLine("--------------------");
             Console.ResetColor();
             Console.WriteLine();
 
             while (menurevistas)
             {
 
-                Console.WriteLine(" === REVISTA ===");
+                Console.WriteLine(" --- REVISTA ---");
                 Console.WriteLine();
                 Console.WriteLine(" 1 - Cadastrar Revista");
                 Console.WriteLine(" 2 - Editar Revista");

@@ -9,23 +9,23 @@ namespace ClubeDeLeituraConsoleApp.Repositorio
         {
             Amigos amigos = new Amigos();
 
-            Console.Write("Digita teu nome: ");
+            Console.Write("Digite o nome do seu amigo: ");
             amigos.nome = Console.ReadLine();
 
-            Console.Write("Digita o nome do teu responsável: ");
+            Console.Write("Digita o nome do responsável: ");
             amigos.nomeresponsavel = Console.ReadLine();
 
-            Console.Write("Digita teu número de telefone: ");
+            Console.Write("Digita o número de telefone: ");
             amigos.numerotelefone = Console.ReadLine();
 
-            Console.Write("Digita teu endereço: ");
+            Console.Write("Digita o endereço: ");
             amigos.endereco = Console.ReadLine();
 
             amigos.ID = ListaAmigos.Count;
 
             ListaAmigos.Add(amigos);
 
-            Console.WriteLine("Cadastrado");
+            Console.WriteLine("Cadastrado com sucesso");
         }
         public void EditarAmigos(List<Amigos> ListaAmigos)
         {
@@ -38,16 +38,16 @@ namespace ClubeDeLeituraConsoleApp.Repositorio
 
             ListaAmigos.RemoveAt(index);
 
-            Console.Write("Digita teu nome: ");
+            Console.Write("Digite o nome: ");
             amigos.nome = Console.ReadLine();
 
-            Console.Write("Digita o nome do teu responsável: ");
+            Console.Write("Digita o nome do responsável: ");
             amigos.nomeresponsavel = Console.ReadLine();
 
-            Console.Write("Digita teu número de telefone: ");
+            Console.Write("Digita o número de telefone: ");
             amigos.numerotelefone = Console.ReadLine();
 
-            Console.Write("Digita teu endereço: ");
+            Console.Write("Digita o endereço: ");
             amigos.endereco = Console.ReadLine();
 
             amigos.ID = ListaAmigos.Count;
@@ -56,7 +56,7 @@ namespace ClubeDeLeituraConsoleApp.Repositorio
 
             ListaAmigos.Add(amigos);
 
-            Console.WriteLine("Edição feita com sucesso.");
+            Console.WriteLine("Editado com sucesso.");
         }
         public void ExcluirAmigos(List<Amigos> ListaAmigos)
         {
@@ -67,7 +67,7 @@ namespace ClubeDeLeituraConsoleApp.Repositorio
 
             int index = ListaAmigos.FindIndex(item => amigos.remove == item.ID);
 
-            Console.WriteLine("Exclusão feita com sucesso.");
+            Console.WriteLine("Excluido com sucesso.");
         }
         public void VerificarAmigos(List<Amigos> ListaAmigos)
         {

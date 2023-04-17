@@ -12,15 +12,15 @@ namespace ClubeDeLeituraConsoleApp.Telas
             bool menucaixas = true;
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" ====================");
+            Console.WriteLine("--------------------");
             Console.WriteLine(" Clube da Leitura");
-            Console.WriteLine(" ====================");
+            Console.WriteLine("--------------------");
             Console.ResetColor();
             Console.WriteLine();
 
             while (menucaixas)
             {
-                Console.WriteLine(" === Caixa ===");
+                Console.WriteLine(" --- Caixa ---");
                 Console.WriteLine();
                 Console.WriteLine(" 1 - Cadastrar Caixa");
                 Console.WriteLine(" 2 - Editar Caixa");
